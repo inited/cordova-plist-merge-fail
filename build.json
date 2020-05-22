@@ -1,0 +1,16 @@
+{
+  "ios": {
+    "debug": {
+      "developmentTeam": "STVC39AMV5",
+      "provisioningProfile": "a7d6af53-7145-4589-83b8-7c7dcad99c81",
+      "buildFlag": [ "-UseModernBuildSystem=0" ]
+    },
+
+    "release": {
+      "developmentTeam": "STVC39AMV5",
+      "codeSignIdentity": "iPhone Distribution",
+      "provisioningProfile":"558a4a50-6f0f-4f66-a65b-a0a70239b977",
+      "packageType": "app-store"
+    }
+  }
+}

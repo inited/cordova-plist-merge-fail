@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="ionic-plugin-deeplinks" version="1.0.20">
+	<name>Ionic Deeplink Plugin</name>
+
+	<platform name="ios">
+		<config-file target="*-Info.plist" parent="CFBundleURLTypes">
+			<array>
+				<dict>
+					<key>CFBundleURLSchemes</key>
+					<array>
+						<string>URL_SCHEME</string>
+					</array>
+				</dict>
+			</array>
+		</config-file>
+	</platform>
+</plugin>
