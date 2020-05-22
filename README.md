@@ -10,7 +10,7 @@ I figured out that this happens when `<pods use-frameworks="true">` in plugin.xm
 3. check `platforms/ios/test/test-Info.plist` for result. 
 
 Expected values:
-`
+```
 <key>CFBundleURLTypes</key>
 <array>
     <dict>
@@ -36,10 +36,10 @@ Expected values:
         </array>
     </dict>
 </array>
-`
+```
 
 Actual values:
-`
+```
 <key>CFBundleURLTypes</key>
 <array>
     <dict>
@@ -49,5 +49,5 @@ Actual values:
         </array>
     </dict>
 </array>
-`
+```
 
